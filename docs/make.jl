@@ -1,6 +1,3 @@
-using PyCall 
-using Pkg; Pkg.add("PyPlot")
-
 using Documenter, Blog
 makedocs(sitename="Ideas Convergence", modules=[Blog],
 pages = Any[
