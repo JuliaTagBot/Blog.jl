@@ -2,7 +2,7 @@
 
 This is a list of interview questions on statistics. 
 
-Constribution is wellcomed. Please send questions and solutions (plus hints) to kailaix@hotmail.com. 
+Contribution is welcomed. Please send questions and solutions (plus hints) to kailaix@hotmail.com. 
 
 **Example Constribution**
 
