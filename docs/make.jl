@@ -1,7 +1,8 @@
 using Documenter, Blog
-makedocs(sitename="Ideas Convergence", modules=[Blog],
+makedocs(sitename="Kailai's Workspace", modules=[Blog],
 pages = Any[
     "index.md",
+    "problems.md"
 ],
 authors = "Kailai Xu")
 
