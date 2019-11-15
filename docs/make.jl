@@ -2,7 +2,9 @@ using Documenter, Blog
 makedocs(sitename="Kailai's Workspace", modules=[Blog],
 pages = Any[
     "index.md",
-    "problems.md"
+    "quant.md",
+    "programming.md",
+    "articles.md"
 ],
 authors = "Kailai Xu")
 
