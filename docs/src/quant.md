@@ -12,3 +12,9 @@ You are guarding 100 murderers in a field, and you have a gun with a single bull
 !!! solution
     Starting with n=1. Tell the head murderer in each subgroup that you will shoot him if all group members escape.
 
+## Random Character
+You have a file that contains an unknown number of characters. How do you pick a character such that each character in the file has equal probability of being chosen?
+
+!!! solution
+    Use a buffer that holds one character. At ``i``th character, replace it with the next character with probability ``\frac{i}{i+1}``.
+
