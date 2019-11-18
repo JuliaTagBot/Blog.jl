@@ -18,3 +18,15 @@ You have a file that contains an unknown number of characters. How do you pick a
 !!! solution
     Use a buffer that holds one character. At ``i``th character, replace it with the next character with probability ``\frac{i}{i+1}``.
 
+## Optimal Stepsize
+Suppose we use finite difference method to compute ``f'(x)``
+$$f'(x) \approx \frac{f(x+h)-f(x)}{h}$$
+Discuss the optimal ``h``.
+
+!!! solution
+    If we compute ``f(x)`` with 64-bit floating-point numbers, we will incur **roundoff error**
+    $$\bar f(x) = f(x)(1+\varepsilon_1)$$
+    Additionally, when we use finite difference method, there will be **truncation error**
+    $$\frac{f(x+h)-f(x)}{h} - f'(x) = \frac{h}{2}f''(\xi_h)$$
+    The optimal ``h`` can be computed by considering
+    $$\left\| \frac{\bar f(x+h)-\bar f(x)}{h} - f'(x) \right\|$$

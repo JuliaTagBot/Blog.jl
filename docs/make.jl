@@ -1,5 +1,5 @@
 using Documenter, Blog
-makedocs(sitename="Kailai's Workspace", modules=[Blog],
+makedocs(sitename="Workspace", modules=[Blog],
 pages = Any[
     "index.md",
     "quant.md",
