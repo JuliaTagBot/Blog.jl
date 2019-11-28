@@ -28,3 +28,5 @@ for i = 1:NT
 end
 plot3D(X[1,:], X[2,:], X[3,:])
 ```
+
+![](./assets/lorenz.png)
